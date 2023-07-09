@@ -694,7 +694,7 @@
             <span class="c-homep-fw-text44 labelregular">
               <span class="c-homep-fw-text45">
                 I agree with the
-                <span v-html="rawvcx8"></span>
+                <span v-html="raw4azv"></span>
               </span>
               <span>terms and conditions</span>
             </span>
@@ -824,7 +824,7 @@ export default {
   },
   data() {
     return {
-      rawvcx8: ' ',
+      raw4azv: ' ',
     }
   },
   metaInfo: {

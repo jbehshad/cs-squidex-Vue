@@ -16,7 +16,7 @@
           <span class="value-prop-text06">
             We are a team of highly skilled behavioral scientists, designers and
             technologists who empower
-            <span v-html="rawv6n2"></span>
+            <span v-html="raw84j3"></span>
           </span>
           <span>Evidence-based Government Agencies.</span>
         </span>
@@ -73,7 +73,7 @@ export default {
   },
   data() {
     return {
-      rawv6n2: ' ',
+      raw84j3: ' ',
     }
   },
 }
@@ -181,5 +181,14 @@ export default {
   line-height: 150%;
   font-stretch: normal;
   text-decoration: none;
+}
+@media(max-width: 767px) {
+  .value-prop-text02 {
+    color: var(--dl-color-csl-charcoal);
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 100%;
+    text-decoration: none;
+  }
 }
 </style>
